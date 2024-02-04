@@ -1,8 +1,9 @@
 body{
     font-family:'Manrope', sans-serif;
     font-size: 1em;
-
+    background-color: #1f2039;
 }
+
     a{
     color:black;
     text-decoration:none;
@@ -18,20 +19,17 @@ h1{
     font-size:3.5em;
     color:#A5B4FC;
     font-family: 'Montserrat', sans-serif;
+  
 }
 
 h2{
     color:#F9F8FF;
 }
 
-p{
+p, li{
     font-size:1.1em;
     color:#F9F8FF;
-}
-
-ul> li{
- font-size:1em;
- color:#F9F8FF;
+    text-align:center;
 }
 
 .header, .footer{
@@ -40,11 +38,16 @@ ul> li{
 
 
 
-.heart{
-    background-color: #1F2039;
-}
-
 .button{
     background: linear-gradient(90deg,#8E86B5,#ACAEED );
+    color: white;
+    border-radius: 50px;
+}
+
+.element{
+    border-right: 1px solid #8e86b5;
+    border-bottom: 1px solid #8e86b5;
+   
+      
 }
 
