@@ -1,28 +1,28 @@
-a{
+body{
+    font-family:'Manrope', sans-serif;
+    font-size: 1em;
+
+}
+    a{
     color:black;
-    font-size:3.5em;
-    color:#A5B4FC;
-    font-family:montserrat;
     text-decoration:none;
 
 }
-
-.home_para{
-    color: #A5B4FC;
-}
+em {
+    color: #a5b4fc;
+    font-style: normal;
+  }
 
 h1{
     font-size:3.5em;
     color:#A5B4FC;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
 }
 
 p{
     font-size:1.1em;
-    font-family: Manrope;
 }
 
 ul> li{
  font-size:1em;
- font-family: Manrope;
 }
