@@ -12,6 +12,7 @@ em {
     color: #a5b4fc;
     font-style: normal;
   }
+  
 
 h1{
     font-size:3.5em;
@@ -19,10 +20,31 @@ h1{
     font-family: 'Montserrat', sans-serif;
 }
 
+h2{
+    color:#F9F8FF;
+}
+
 p{
     font-size:1.1em;
+    color:#F9F8FF;
 }
 
 ul> li{
  font-size:1em;
+ color:#F9F8FF;
 }
+
+.header, .footer{
+    background-color: white;
+}
+
+
+
+.heart{
+    background-color: #1F2039;
+}
+
+.button{
+    background: linear-gradient(90deg,#8E86B5,#ACAEED );
+}
+
