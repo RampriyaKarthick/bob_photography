@@ -9,6 +9,10 @@ body{
     text-decoration:none;
 
 }
+
+a:hover{
+    text-decoration: underline;
+}
 em {
     color: #a5b4fc;
     font-style: normal;
@@ -36,7 +40,9 @@ p, li{
     background-color: white;
 }
 
-
+.header a:hover, .footer .icon:hover{
+    opacity: 0.5;
+}
 
 .button{
     background: linear-gradient(90deg,#8E86B5,#ACAEED );
@@ -44,10 +50,14 @@ p, li{
     border-radius: 50px;
 }
 
+.button:hover{
+    background:linear-gradient(#696484,#8788BA);
+    text-decoration:none;
+}
+
 .element{
     border-right: 1px solid #8e86b5;
     border-bottom: 1px solid #8e86b5;
    
-      
 }
 
