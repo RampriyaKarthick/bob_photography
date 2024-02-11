@@ -1,0 +1,41 @@
+
+.welcome-photos {
+    background-color: white;
+    padding: 70px;
+  }
+ 
+
+  .welcome-photos h2 {
+    color: #242424;
+    text-align: center;
+    margin-bottom: 80px;
+    
+  }
+
+  .welcome-photos div {
+    display: flex;
+    flex-direction: row;
+    gap:2px;
+    justify-content: center;
+    margin-bottom: 2px;
+  }
+
+  .welcome-introduction {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    align-items: center;
+    margin: auto;
+  }
+
+  .welcome-introduction h1 {
+    margin-bottom: 15px;
+  }
+  
+  .welcome-introduction p {
+    margin-bottom: 30px;
+  }
+
+  .welcome-introduction div {
+    padding-right: 80px;
+  }
