@@ -13,7 +13,7 @@
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 300px 300px 300px;
-  gap: 10px;
+    gap: 10px;
 
   }
 
@@ -27,7 +27,7 @@
 .grid-portraits{
     display:grid;
     grid-template-columns: 2fr 2fr 2fr;
-    grid-template-rows: 300px 300px 300px;
+    grid-template-rows: 300px 300px;
     gap: 10px;
 }
 

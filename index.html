@@ -26,7 +26,7 @@
    
   <main>
     <section class="welcome-introduction">
-        <div>
+        <div class="welcome-para">
         <h1> Bob's Photography</h1>
         <p>
             Fusing <em>professionalism</em> with a fiery  <em>passion</em>, I've dedicated over five years to honing my craft. My driving force? Capturing the very soul of every moment.</p>
@@ -35,21 +35,45 @@
      
         <a href="/dossier_demo/portfolio.html" class="button">A PROJECT? WRITE ME?</a>
        </div>
-       <img src="/images/Bob.jpg" alt="Bob image"/>
+       <div>
+        <img src="/images/Bob.jpg" alt="Bob image" width="350" height="350"/>
+       </div>
+      
     </section>
     <section class="welcome-photos">
         <h2>My last projet</h2>
         <div>
-            <img src="images/welcome/element1.jpg" alt="Nature" class="link-container">
-            <img src="images/welcome/element2.jpg" alt="Nature" class="link-container">
+            <img src="images/welcome/element1.jpg" alt="Nature" class="link-container" width="500" height="450">
+            <img src="images/welcome/element2.jpg" alt="Nature" class="link-container" width="500" height="450">
            
         </div>
         <div>
         
-            <img src="images/welcome/element5.jpg" alt="Nature" class="link-container" >
-            <img src="images/welcome/element2.jpg" alt="Nature" class="link-container" >
+            <img src="images/welcome/element5.jpg" alt="Nature" class="link-container" width="500" height="450">
+            <img src="images/welcome/element2.jpg" alt="Nature" class="link-container" width="500" height="450">
            
         </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <h2>Let's talk about your project</h2>
+        <form method="post" action="#">
+            <div class="form-name-email">
+                <div class="form-column">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" required>
+                </div>
+                <div class="form-column">
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" id="email" required>
+                </div>
+            </div>
+            <div class="form-message">
+                <label for="message">Message</label>
+                <textarea name="message" id="message" rows="10" required></textarea>
+            </div>
+            <input type="submit" value="SEND" class="button">
+        </form>
     </section>
    
   </main>

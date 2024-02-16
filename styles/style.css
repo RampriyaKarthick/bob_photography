@@ -75,7 +75,14 @@ p, li{
     padding: 80px;
   }
 
+ .about-main {
+    width: 50%;
+    margin: auto;
+  }
 
+  .about-main h1{
+    text-align: center;
+  }
 
 
   footer,
