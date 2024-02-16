@@ -13,8 +13,7 @@
 .welcome-photos div {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row;
-  gap: 2px;
+  gap: 5px;
   justify-content: center;
   margin-bottom: 2px;
 }
