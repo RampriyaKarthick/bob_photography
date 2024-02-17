@@ -116,9 +116,6 @@ main{
   flex-wrap: wrap;
  } 
 
- .header, .footer{
-  width:100%;
- }
 }
 
 
