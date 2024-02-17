@@ -103,6 +103,12 @@ p, li{
   body{
     display:flex;
     flex-wrap: wrap;
+    position:absolute;
+}
+
+.header, .footer{
+  position: relative;
+  width: 100%;
 }
 
 main{
