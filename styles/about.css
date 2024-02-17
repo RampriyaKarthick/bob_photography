@@ -51,4 +51,15 @@ h2 {
     padding:80px;
   }
 
+  @media screen and (max-width: 996px) {
+    .tarifs-section {
+      display: none;
+    }
+
+    .element{
+      padding:10px;
+    }
+
+    }
   
+ 

@@ -33,7 +33,7 @@
             
         
      
-        <a href="/dossier_demo/portfolio.html" class="button">A PROJECT? WRITE ME?</a>
+        <a href="#footer" class="button">A PROJECT? WRITE ME?</a>
        </div>
        <div>
         <img src="/images/Bob.jpg" alt="Bob image" width="350" height="350"/>
@@ -50,7 +50,7 @@
         <div>
         
             <img src="images/welcome/element5.jpg" alt="Nature" class="link-container" width="500" height="450">
-            <img src="images/welcome/element2.jpg" alt="Nature" class="link-container" width="500" height="450">
+            <img src="images/welcome/element9.jpeg" alt="Nature" class="link-container" width="500" height="450">
            
         </div>
     </section>
@@ -58,28 +58,31 @@
     <section id="contact" class="contact-section">
         <h2>Let's talk about your project</h2>
         <form method="post" action="#">
-            <div class="form-name-email">
-                <div class="form-column">
-                    <label for="name">Name</label>
-                    <input type="text" name="name" id="name" required>
+            <div class="form-container">
+                <div class="form-name-email">
+                    <div class="form-column">
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name" required>
+                    </div>
+                    <div class="form-column">
+                        <label for="email">E-mail</label>
+                        <input type="email" name="email" id="email" required>
+                    </div>
                 </div>
-                <div class="form-column">
-                    <label for="email">E-mail</label>
-                    <input type="email" name="email" id="email" required>
+                <div class="form-message">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" rows="10" required></textarea>
                 </div>
+                <input type="submit" value="SEND" class="button">
             </div>
-            <div class="form-message">
-                <label for="message">Message</label>
-                <textarea name="message" id="message" rows="10" required></textarea>
-            </div>
-            <input type="submit" value="SEND" class="button">
+           
         </form>
     </section>
    
   </main>
     
    
-    <footer class="footer">
+    <footer class="footer" id="footer">
         <img src="/images/logo.png" alt="logo" class="icon" />
         <div>
             <a href="https://twitter.com/" target="_blank" class="icon" ><img src="/images/twitter.png" alt="twitter_image"/></a>

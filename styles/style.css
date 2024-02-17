@@ -42,11 +42,12 @@ p, li{
 
 .header, .footer{
     background-color: white;
-    padding:20px 50px;
+    /* padding:20px 50px; */
 }
 
 .header a:hover, .footer .icon:hover{
     opacity: 0.5;
+    text-decoration: none;
 }
 
 .icon {
@@ -98,6 +99,20 @@ p, li{
 }
 
 
+@media screen and (max-width: 996px) {
+  
+
+main{
+  display:flex;
+  flex-wrap: wrap;
+  }
+
+ #contact{
+ 
+  display:flex;
+  flex-wrap: wrap;
+ } 
+}
 
 
   

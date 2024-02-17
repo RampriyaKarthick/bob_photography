@@ -21,15 +21,15 @@
 .welcome-introduction {
   display: flex;
   flex-wrap: wrap;
-  justify-content:space-around;
+  justify-content: space-around;
   flex-direction: row;
- 
+
   align-items: center;
   margin: auto;
 }
 
-.welcome-para{
-  width:50%
+.welcome-para {
+  width: 50%;
 }
 .welcome-introduction h1 {
   margin-bottom: 15px;
@@ -49,7 +49,7 @@
   margin-bottom: 50px;
 }
 
-form {
+.form-container {
   display: flex;
   flex-direction: column;
   width: 40%;
@@ -70,8 +70,8 @@ form {
   margin-bottom: 20px;
 }
 
-.form-message{
-  display:flex;
+.form-message {
+  display: flex;
   flex-direction: column;
 }
 
@@ -86,8 +86,44 @@ label {
   margin-bottom: 10px;
 }
 
-input[type='submit'] {
+input[type="submit"] {
   width: 200px;
   margin: auto;
   margin-top: 30px;
+}
+
+@media screen and (max-width: 996px) {
+  .tarifs-section {
+    display: none;
+  }
+
+  .welcome-introduction {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px;
+  }
+
+  .welcome-introduction img {
+    display: none;
+  }
+  .welcome-para {
+    margin: 0px;
+    font-size:small;
+  }
+  #contact {
+    padding: 0px;
+  }
+
+  .form-container {
+    width: 100%;
+  }
+
+  .contact-section {
+ height:500px;
+  }
+
+  .button{
+    padding:10px 5px;
+
+  }
 }
