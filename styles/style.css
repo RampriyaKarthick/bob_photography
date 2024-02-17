@@ -115,6 +115,10 @@ main{
   display:flex;
   flex-wrap: wrap;
  } 
+
+ .header, .footer{
+  width:100%;
+ }
 }
 
 
